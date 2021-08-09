@@ -39,7 +39,7 @@ namespace Habbop
                     _services = new ServiceCollection().AddSingleton(_client).AddSingleton(_commands).BuildServiceProvider();
 
                     // Token do Bot
-                    string botToken = "ODc0MzEzNzUzODM4MTEyNzg4.YRFKIg.-wznnp_Yeb6fzpIOG9v6zFJShc4";
+                    string botToken = "Seu token";
 
 
                 // assinatura de evento 
