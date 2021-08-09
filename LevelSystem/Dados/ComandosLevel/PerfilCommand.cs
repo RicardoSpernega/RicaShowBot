@@ -17,26 +17,26 @@ namespace Habbop.LevelSystem.Dados.ComandosLevel
         {
 
 
-      EmbedBuilder bd = new EmbedBuilder();
+            EmbedBuilder bd = new EmbedBuilder();
 
-      var status = $"{Context.User.Status}";
-;       
-   
+            var status = $"{Context.User.Status}";
+            ;
 
-       if (status.Equals("DoNotDisturb"))
+
+            if (status.Equals("DoNotDisturb"))
             {
-              status = ":red_circle:  Não pertubar";
+                status = ":red_circle:  Não pertubar";
 
             }
             if (status.Equals("Idle"))
             {
                 status = ":large_blue_circle:   Ausente";
             }
-            if(status.Equals("Offline"))
+            if (status.Equals("Offline"))
             {
                 status = ":white_circle:    Invisível";
             }
-            if(status.Equals("Online"))
+            if (status.Equals("Online"))
             {
                 status = ":white_check_mark:  Disponível";
             }
@@ -45,14 +45,14 @@ namespace Habbop.LevelSystem.Dados.ComandosLevel
             UsuarioDados account = UsuarioDado.GetUsuarioDados(Context.User);
             foreach (SocketRole role in ((SocketGuildUser)Context.Message.Author).Roles)
             {
-                cargores  += " "+ role.Name + ",";
+                cargores += " " + role.Name + ",";
             }
             var idUser = $"```{Context.User.Id}```";
             var idName = $"```{Context.User.Username}```";
             bd.WithTitle($"Perfil de {Context.User}");
             bd.WithColor(Color.Blue);
             bd.WithDescription($"Missão :```{account.missao}```");
-            bd.WithThumbnailUrl($"{Context.User.GetAvatarUrl(size:2048)}");
+            bd.WithThumbnailUrl($"{Context.User.GetAvatarUrl(size: 2048)}");
             bd.AddInlineField("Status", status);
             bd.AddInlineField("Jogando", $":video_game: {Context.User.Game}");
             bd.AddInlineField("XP: ", $"```{account.XP}```");
@@ -69,6 +69,6 @@ namespace Habbop.LevelSystem.Dados.ComandosLevel
             await Context.Channel.SendMessageAsync("", false, bd.Build());
 
         }
-     
+
     }
 }

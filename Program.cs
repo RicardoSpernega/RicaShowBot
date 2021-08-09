@@ -39,7 +39,7 @@ namespace Habbop
                     _services = new ServiceCollection().AddSingleton(_client).AddSingleton(_commands).BuildServiceProvider();
 
                     // Token do Bot
-                    string botToken = "Token do seu bot";
+                    string botToken = "ODc0MzEzNzUzODM4MTEyNzg4.YRFKIg.-wznnp_Yeb6fzpIOG9v6zFJShc4";
 
 
                 // assinatura de evento 
@@ -109,7 +109,7 @@ namespace Habbop
 
    
            
-            await _client.SetGameAsync($"Activity do bot ", "http://habbop.com.br", StreamType.NotStreaming);
+            await _client.SetGameAsync($"Activity do bot ", "https://ricardospernega.herokuapp.com/", StreamType.NotStreaming);
            
 
         }

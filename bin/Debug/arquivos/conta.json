@@ -848,5 +848,15 @@
     "levelNumero": 0,
     "IsMuted": false,
     "NumberOfWarning": 0
+  },
+  {
+    "ID": 242399955426213888,
+    "Points": 0,
+    "XP": 600,
+    "missao": null,
+    "cargos": null,
+    "levelNumero": 1,
+    "IsMuted": false,
+    "NumberOfWarning": 0
   }
 ]

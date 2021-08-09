@@ -48,3 +48,24 @@ C:\Users\eduar\source\repos\Habbop\Habbop\obj\Debug\Habbop.exe
 C:\Users\eduar\source\repos\Habbop\Habbop\obj\Debug\Habbop.pdb
 C:\Users\eduar\source\repos\Habbop\Habbop\bin\Debug\NReco.ImageGenerator.dll
 C:\Users\eduar\source\repos\Habbop\Habbop\bin\Debug\NReco.ImageGenerator.xml
+C:\www\RicashowBot\RicashoBot 3\bin\Debug\Habbop.exe.config
+C:\www\RicashowBot\RicashoBot 3\bin\Debug\Habbop.exe
+C:\www\RicashowBot\RicashoBot 3\bin\Debug\Habbop.pdb
+C:\www\RicashowBot\RicashoBot 3\bin\Debug\System.AppContext.dll
+C:\www\RicashowBot\RicashoBot 3\bin\Debug\Discord.Net.Commands.xml
+C:\www\RicashowBot\RicashoBot 3\bin\Debug\Discord.Net.Core.xml
+C:\www\RicashowBot\RicashoBot 3\bin\Debug\Discord.Net.Rest.xml
+C:\www\RicashowBot\RicashoBot 3\bin\Debug\Discord.Net.Rpc.xml
+C:\www\RicashowBot\RicashoBot 3\bin\Debug\Discord.Net.Webhook.xml
+C:\www\RicashowBot\RicashoBot 3\bin\Debug\Discord.Net.WebSocket.xml
+C:\www\RicashowBot\RicashoBot 3\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\www\RicashowBot\RicashoBot 3\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\www\RicashowBot\RicashoBot 3\bin\Debug\Newtonsoft.Json.xml
+C:\www\RicashowBot\RicashoBot 3\bin\Debug\NReco.ImageGenerator.xml
+C:\www\RicashowBot\RicashoBot 3\bin\Debug\System.Collections.Immutable.xml
+C:\www\RicashowBot\RicashoBot 3\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\www\RicashowBot\RicashoBot 3\bin\Debug\System.Interactive.Async.xml
+C:\www\RicashowBot\RicashoBot 3\obj\Debug\Habbop.csprojAssemblyReference.cache
+C:\www\RicashowBot\RicashoBot 3\obj\Debug\Habbop.csproj.CopyComplete
+C:\www\RicashowBot\RicashoBot 3\obj\Debug\Habbop.exe
+C:\www\RicashowBot\RicashoBot 3\obj\Debug\Habbop.pdb
